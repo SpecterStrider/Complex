@@ -8973,7 +8973,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Capacitor_0603"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 152.4 134.3152 0)
 			(effects
 				(font
@@ -9260,7 +9260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Capacitor_0402"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 191.4652 77.47 0)
 			(effects
 				(font
@@ -9330,7 +9330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Capacitor_0603"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 260.0452 62.23 0)
 			(effects
 				(font
@@ -9398,7 +9398,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Capacitor_0603"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 118.11 108.2548 0)
 			(effects
 				(font
@@ -9465,7 +9465,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Capacitor_0603"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 152.4 144.4752 0)
 			(effects
 				(font
@@ -9597,7 +9597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 190.5 96.012 90)
 			(effects
 				(font
@@ -9732,7 +9732,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 92.71 187.198 90)
 			(effects
 				(font
@@ -9935,7 +9935,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 216.662 209.55 90)
 			(effects
 				(font
@@ -10701,7 +10701,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 186.69 145.288 90)
 			(effects
 				(font
@@ -11566,7 +11566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 81.28 116.078 90)
 			(effects
 				(font
@@ -11633,7 +11633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 92.71 189.738 90)
 			(effects
 				(font
@@ -11703,7 +11703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Capacitor_0603"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 246.0752 43.18 0)
 			(effects
 				(font
@@ -11908,7 +11908,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Capacitor_0603"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 191.4652 62.23 0)
 			(effects
 				(font
@@ -13469,7 +13469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Capacitor_0603"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 296.8752 62.23 0)
 			(effects
 				(font
@@ -13669,7 +13669,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 186.182 209.55 90)
 			(effects
 				(font
@@ -13890,7 +13890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Capacitor_0603"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 323.5452 62.23 0)
 			(effects
 				(font
@@ -14289,7 +14289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Capacitor_0603"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 284.1752 62.23 0)
 			(effects
 				(font
@@ -14490,7 +14490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Capacitor_0603"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 110.1852 187.96 0)
 			(effects
 				(font
@@ -14849,7 +14849,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 190.5 97.028 90)
 			(effects
 				(font
@@ -14919,7 +14919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Capacitor_0603"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 247.3452 62.23 0)
 			(effects
 				(font
@@ -15055,7 +15055,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Capacitor_0603"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 202.8952 62.23 0)
 			(effects
 				(font
@@ -15122,7 +15122,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Capacitor_0603"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 89.2048 58.42 0)
 			(effects
 				(font
@@ -16018,7 +16018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Capacitor_0603"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 272.7452 62.23 0)
 			(effects
 				(font
@@ -16085,7 +16085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 82.042 52.07 90)
 			(effects
 				(font
@@ -16552,7 +16552,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Capacitor_0402"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 247.3452 77.47 0)
 			(effects
 				(font
@@ -16622,7 +16622,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 91.948 113.03 90)
 			(effects
 				(font
@@ -16760,7 +16760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Capacitor_0603"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 309.5752 62.23 0)
 			(effects
 				(font
@@ -17470,7 +17470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Capacitor_0603"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 143.2052 187.96 0)
 			(effects
 				(font
