@@ -67629,7 +67629,7 @@
 	(footprint "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
 		(layer "F.Cu")
 		(uuid "fe9632b0-4b0b-418d-9895-f6b4eb848dfc")
-		(at 236.96 105.122)
+		(at 236.96 106)
 		(descr "CK components KMR2 tactile switch http://www.ckswitches.com/media/1479/kmr2.pdf")
 		(tags "tactile switch kmr2")
 		(property "Reference" "RESET2"
