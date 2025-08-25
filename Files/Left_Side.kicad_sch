@@ -4831,6 +4831,12 @@
 		(uuid "0f4c3925-126d-4494-afe5-2cc974d43b3f")
 	)
 	(junction
+		(at 331.47 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10c7c078-3bd8-4023-9f79-d099a7e4ec39")
+	)
+	(junction
 		(at 25.4 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5057,6 +5063,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a7d27b0-6e2a-4527-96c0-b0f594d2546e")
+	)
+	(junction
+		(at 317.5 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b6b8513-0769-442e-a3ea-4d17d5b11542")
 	)
 	(junction
 		(at 45.72 279.4)
@@ -5339,6 +5351,10 @@
 		(uuid "0d27f345-baeb-462b-9e22-45c7bd76dbac")
 	)
 	(no_connect
+		(at 240.03 134.62)
+		(uuid "151c81e2-9290-4cb2-aaa5-c87c4ee1bafb")
+	)
+	(no_connect
 		(at 240.03 139.7)
 		(uuid "218a6dee-cd0f-4ca3-a5ae-2b4fa3d88ec6")
 	)
@@ -5449,10 +5465,6 @@
 	(no_connect
 		(at 189.23 152.4)
 		(uuid "f0502065-b196-4c1c-bbaa-2a5a4ef2c085")
-	)
-	(no_connect
-		(at 240.03 144.78)
-		(uuid "fca3e664-2cb6-4719-8bf0-af5485dbb90e")
 	)
 	(wire
 		(pts
@@ -5603,6 +5615,16 @@
 			(type default)
 		)
 		(uuid "145b38cf-b6a5-4a0d-954c-ebd8d6194c47")
+	)
+	(wire
+		(pts
+			(xy 331.47 60.96) (xy 317.5 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1530fd61-9c70-4ea4-80c8-b8f2035f9ee4")
 	)
 	(wire
 		(pts
@@ -5903,6 +5925,16 @@
 			(type default)
 		)
 		(uuid "45bc76ee-b01b-46cf-b877-0d481f96b2d2")
+	)
+	(wire
+		(pts
+			(xy 331.47 62.23) (xy 331.47 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "482b6c5f-0a36-4491-b087-18f5898c3720")
 	)
 	(wire
 		(pts
@@ -6306,6 +6338,16 @@
 	)
 	(wire
 		(pts
+			(xy 317.5 53.34) (xy 331.47 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "980ce153-10cd-4799-b49f-e1d94445911a")
+	)
+	(wire
+		(pts
 			(xy 78.74 54.61) (xy 78.74 55.88)
 		)
 		(stroke
@@ -6403,16 +6445,6 @@
 			(type default)
 		)
 		(uuid "a5207eaa-4059-49db-b8e2-ac52651cde7b")
-	)
-	(wire
-		(pts
-			(xy 33.02 22.86) (xy 33.02 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a779e4be-764c-4b73-a427-e9ec6aa3c5ae")
 	)
 	(wire
 		(pts
@@ -6806,6 +6838,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 24.13) (xy 33.02 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6cc6a3e-baa1-42b5-b992-46ae3d35a92e")
+	)
+	(wire
+		(pts
 			(xy 40.64 96.52) (xy 40.64 81.28)
 		)
 		(stroke
@@ -7134,9 +7176,19 @@
 		)
 		(uuid "fdf06886-278b-4ee5-95a1-b929a22b3193")
 	)
-	(global_label "GPIO_19"
+	(label "3V3_preFuse"
+		(at 130.81 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0bcde6cf-9ea0-41a2-80c2-622b77d0ccf7")
+	)
+	(global_label "GPIO_25"
 		(shape input)
-		(at 240.03 134.62 0)
+		(at 240.03 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7146,7 +7198,7 @@
 		)
 		(uuid "0260b427-3233-4e6c-bc74-39d1b44ab54b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.8771 134.62 0)
+			(at 250.8771 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7332,7 +7384,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_19"
+	(global_label "GPIO_25"
 		(shape input)
 		(at 212.09 200.66 180)
 		(fields_autoplaced yes)
@@ -7488,7 +7540,7 @@
 	)
 	(global_label "GPIO_10"
 		(shape input)
-		(at 364.49 110.49 180)
+		(at 287.02 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7498,7 +7550,7 @@
 		)
 		(uuid "460fdba2-5cf9-4351-9f57-beb021d630d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 353.6429 110.49 0)
+			(at 276.1729 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7510,7 +7562,7 @@
 	)
 	(global_label "GPIO_9"
 		(shape input)
-		(at 344.17 110.49 180)
+		(at 306.07 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7520,7 +7572,7 @@
 		)
 		(uuid "48e9fafb-fca4-4034-b1db-9c816a913745")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 334.5324 110.49 0)
+			(at 296.4324 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7576,7 +7628,7 @@
 	)
 	(global_label "GPIO_0"
 		(shape input)
-		(at 33.02 22.86 0)
+		(at 33.02 24.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7586,7 +7638,7 @@
 		)
 		(uuid "5229bf93-778b-4581-8d2c-289e94d6547f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.6576 22.86 0)
+			(at 42.6576 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7620,7 +7672,7 @@
 	)
 	(global_label "GPIO_5"
 		(shape input)
-		(at 364.49 91.44 180)
+		(at 287.02 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7630,7 +7682,7 @@
 		)
 		(uuid "5d96a352-d8fa-4a1a-8c6e-406317684625")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 354.8524 91.44 0)
+			(at 277.3824 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7950,7 +8002,7 @@
 	)
 	(global_label "GPIO_1"
 		(shape input)
-		(at 287.02 91.44 180)
+		(at 364.49 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7960,7 +8012,7 @@
 		)
 		(uuid "9129e7a2-eb03-4867-bb0f-c5b061d11fae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 277.3824 91.44 0)
+			(at 354.8524 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8412,7 +8464,7 @@
 	)
 	(global_label "GPIO_4"
 		(shape input)
-		(at 344.17 91.44 180)
+		(at 306.07 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8422,7 +8474,7 @@
 		)
 		(uuid "e432e40e-3aa9-4380-a509-07f2d228a09c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 334.5324 91.44 0)
+			(at 296.4324 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8434,7 +8486,7 @@
 	)
 	(global_label "L_RX"
 		(shape input)
-		(at 240.03 149.86 0)
+		(at 240.03 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8444,7 +8496,7 @@
 		)
 		(uuid "e4643d8b-0a45-4a15-ac59-1b076a3db269")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.4904 149.86 0)
+			(at 247.4904 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8478,7 +8530,7 @@
 	)
 	(global_label "GPIO_6"
 		(shape input)
-		(at 287.02 110.49 180)
+		(at 364.49 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8488,7 +8540,7 @@
 		)
 		(uuid "eafd79af-9cfa-4b5a-a5b7-eccbb2fbda95")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 277.3824 110.49 0)
+			(at 354.8524 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8544,7 +8596,7 @@
 	)
 	(global_label "GPIO_2"
 		(shape input)
-		(at 306.07 91.44 180)
+		(at 344.17 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8554,7 +8606,7 @@
 		)
 		(uuid "f7c9eef5-23fa-4b04-8762-743e706435c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 296.4324 91.44 0)
+			(at 334.5324 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8610,7 +8662,7 @@
 	)
 	(global_label "GPIO_7"
 		(shape input)
-		(at 306.07 110.49 180)
+		(at 344.17 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8620,7 +8672,7 @@
 		)
 		(uuid "ff8bcd56-2bc3-4b63-a711-9fc2b808bc4e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 296.4324 110.49 0)
+			(at 334.5324 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8741,7 +8793,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 153.67 133.0452 0)
 			(effects
 				(font
@@ -8959,7 +9011,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 87.63 185.928 90)
 			(effects
 				(font
@@ -9094,7 +9146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 138.1252 186.69 0)
 			(effects
 				(font
@@ -9246,7 +9298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 84.1248 57.15 0)
 			(effects
 				(font
@@ -9716,7 +9768,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 185.42 144.018 90)
 			(effects
 				(font
@@ -10416,7 +10468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 186.3852 76.2 0)
 			(effects
 				(font
@@ -10786,7 +10838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 279.0952 60.96 0)
 			(effects
 				(font
@@ -10941,7 +10993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 186.3852 60.96 0)
 			(effects
 				(font
@@ -11405,7 +11457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 185.42 95.758 90)
 			(effects
 				(font
@@ -11741,7 +11793,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 121.92 105.7148 0)
 			(effects
 				(font
@@ -11808,7 +11860,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 153.67 143.2052 0)
 			(effects
 				(font
@@ -11944,7 +11996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 318.4652 60.96 0)
 			(effects
 				(font
@@ -12013,7 +12065,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 105.1052 186.69 0)
 			(effects
 				(font
@@ -12153,7 +12205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 304.4952 60.96 0)
 			(effects
 				(font
@@ -12223,7 +12275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 267.6652 60.96 0)
 			(effects
 				(font
@@ -12293,7 +12345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 254.9652 60.96 0)
 			(effects
 				(font
@@ -12363,7 +12415,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 197.8152 60.96 0)
 			(effects
 				(font
@@ -12839,7 +12891,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 317.5 60.96 0)
+		(at 331.47 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12847,7 +12899,7 @@
 		(dnp no)
 		(uuid "8413d768-e8ca-4e89-9f6c-09384d417b81")
 		(property "Reference" "#PWR034"
-			(at 317.5 67.31 0)
+			(at 331.47 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12856,7 +12908,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 317.754 65.278 0)
+			(at 331.724 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12864,7 +12916,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 317.5 60.96 0)
+			(at 331.47 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12873,7 +12925,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 317.5 60.96 0)
+			(at 331.47 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12882,7 +12934,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 317.5 60.96 0)
+			(at 331.47 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13496,7 +13548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 242.2652 76.2 0)
 			(effects
 				(font
@@ -13850,7 +13902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 240.9952 41.91 0)
 			(effects
 				(font
@@ -14267,7 +14319,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 185.42 94.742 90)
 			(effects
 				(font
@@ -14334,7 +14386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 87.63 188.468 90)
 			(effects
 				(font
@@ -14659,6 +14711,76 @@
 			(project "CustomKB2040"
 				(path "/1dc59942-63a2-41f5-a9fb-7502b7672a2f/02cee8b0-a02f-4615-921b-eb372b3c289b"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 331.47 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acc7c226-7007-4431-ab48-fd47d06f04c7")
+		(property "Reference" "C19"
+			(at 335.28 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 335.28 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 332.4352 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 331.47 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 331.47 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a22bebc5-c9ed-4c54-a11e-8b7c1536e9cb")
+		)
+		(pin "2"
+			(uuid "1163a683-d9c7-4b87-8886-d7b8386b5b5e")
+		)
+		(instances
+			(project "CustomKB2040"
+				(path "/1dc59942-63a2-41f5-a9fb-7502b7672a2f/02cee8b0-a02f-4615-921b-eb372b3c289b"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -15442,7 +15564,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 95.758 110.49 90)
 			(effects
 				(font
@@ -15512,7 +15634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 291.7952 60.96 0)
 			(effects
 				(font
@@ -15973,7 +16095,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 211.582 208.28 90)
 			(effects
 				(font
@@ -16439,7 +16561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 242.2652 60.96 0)
 			(effects
 				(font
@@ -16573,7 +16695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 76.962 50.8 90)
 			(effects
 				(font
@@ -16941,7 +17063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 85.09 113.538 90)
 			(effects
 				(font
@@ -17364,7 +17486,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 181.102 208.28 90)
 			(effects
 				(font
