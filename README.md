@@ -8,6 +8,7 @@ Tempest by thrly
 https://github.com/thrly/tempest
 
 ## TO DO List
-    Impedance match USB
-    Right Side Split
-    
+- [ ]Impedance match USB
+- [ ] Right Side PCB
+- [ ] Restructure GitHub to include Case and 3d files
+- [ ] Rebase from kiCAD to Fusion ECAD
