@@ -8,12 +8,6 @@ Tempest by thrly
 https://github.com/thrly/tempest
 
 ## TO DO List
-Impedance match USB
-
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
+    Impedance match USB
+    Right Side Split
+    
