@@ -1,5 +1,5 @@
 # Project COMPLEX
-Complex is a 36-key split keyboard inspired by  
+Complex is a 36-key ergonomic split keyboard inspired by  
 
 Corne by foostan and  
 https://github.com/foostan/crkbd/tree/main
