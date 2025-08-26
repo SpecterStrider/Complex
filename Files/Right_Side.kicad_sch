@@ -11260,7 +11260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "456b3dda-197f-45e0-bac3-a5e157b5bde4")
-		(property "Reference" "D3"
+		(property "Reference" "D41"
 			(at 191.77 217.4874 90)
 			(effects
 				(font
@@ -11314,7 +11314,7 @@
 		(instances
 			(project "CustomKB2040"
 				(path "/1dc59942-63a2-41f5-a9fb-7502b7672a2f/509c21e9-3c87-4ca7-a30c-cd35896bf815"
-					(reference "D3")
+					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -17246,7 +17246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f05b73c5-6f46-40bb-b6bd-a629999910cc")
-		(property "Reference" "D4"
+		(property "Reference" "D42"
 			(at 222.25 217.4874 90)
 			(effects
 				(font
@@ -17300,7 +17300,7 @@
 		(instances
 			(project "CustomKB2040"
 				(path "/1dc59942-63a2-41f5-a9fb-7502b7672a2f/509c21e9-3c87-4ca7-a30c-cd35896bf815"
-					(reference "D4")
+					(reference "D42")
 					(unit 1)
 				)
 			)

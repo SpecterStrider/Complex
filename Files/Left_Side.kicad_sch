@@ -5351,10 +5351,6 @@
 		(uuid "0d27f345-baeb-462b-9e22-45c7bd76dbac")
 	)
 	(no_connect
-		(at 240.03 134.62)
-		(uuid "151c81e2-9290-4cb2-aaa5-c87c4ee1bafb")
-	)
-	(no_connect
 		(at 240.03 139.7)
 		(uuid "218a6dee-cd0f-4ca3-a5ae-2b4fa3d88ec6")
 	)
@@ -6838,7 +6834,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 24.13) (xy 33.02 27.94)
+			(xy 33.02 22.86) (xy 33.02 27.94)
 		)
 		(stroke
 			(width 0)
@@ -7342,7 +7338,7 @@
 	)
 	(global_label "GPIO_15"
 		(shape input)
-		(at 364.49 130.81 180)
+		(at 306.07 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7352,7 +7348,7 @@
 		)
 		(uuid "23dd9130-0605-46a1-a8ed-39034de3570f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 353.6429 130.81 0)
+			(at 295.2229 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7628,28 +7624,6 @@
 	)
 	(global_label "GPIO_0"
 		(shape input)
-		(at 33.02 24.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5229bf93-778b-4581-8d2c-289e94d6547f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.6576 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_0"
-		(shape input)
 		(at 240.03 86.36 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7848,7 +7822,7 @@
 	)
 	(global_label "GPIO_12"
 		(shape input)
-		(at 306.07 130.81 180)
+		(at 364.49 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7858,7 +7832,7 @@
 		)
 		(uuid "8442f8eb-56c0-424f-865a-1eec25105afb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 295.2229 130.81 0)
+			(at 353.6429 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7978,6 +7952,28 @@
 			)
 		)
 	)
+	(global_label "GPIO_19_LEDS"
+		(shape input)
+		(at 33.02 22.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f71dc98-220d-4a12-8edd-6e5b35d6acb4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.4913 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "L_TX"
 		(shape input)
 		(at 240.03 147.32 0)
@@ -8090,7 +8086,7 @@
 	)
 	(global_label "GPIO_13"
 		(shape input)
-		(at 325.12 130.81 180)
+		(at 344.17 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8100,7 +8096,7 @@
 		)
 		(uuid "a6744e39-6b75-404d-96ad-3f7f08a418df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 314.2729 130.81 0)
+			(at 333.3229 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8528,6 +8524,28 @@
 			)
 		)
 	)
+	(global_label "GPIO_19_LEDS"
+		(shape input)
+		(at 240.03 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e94c283f-87b4-4fb1-a269-467d268b533e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.5013 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO_6"
 		(shape input)
 		(at 364.49 110.49 180)
@@ -8618,7 +8636,7 @@
 	)
 	(global_label "GPIO_14"
 		(shape input)
-		(at 344.17 130.81 180)
+		(at 325.12 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8628,7 +8646,7 @@
 		)
 		(uuid "fdc468b3-e351-47b6-81e3-bf4f1924e460")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 333.3229 130.81 0)
+			(at 314.2729 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8691,7 +8709,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01dc83c0-4c26-4baf-a339-fe324bc8db2f")
-		(property "Reference" "D20"
+		(property "Reference" "D16"
 			(at 45.72 260.858 0)
 			(effects
 				(font
@@ -8761,7 +8779,7 @@
 		(instances
 			(project "CustomKB2040"
 				(path "/1dc59942-63a2-41f5-a9fb-7502b7672a2f/02cee8b0-a02f-4615-921b-eb372b3c289b"
-					(reference "D20")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -8844,7 +8862,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0945b7f1-4c19-4f9e-8063-e42b505b5bf8")
-		(property "Reference" "D7"
+		(property "Reference" "D3"
 			(at 43.942 66.04 90)
 			(effects
 				(font
@@ -8914,7 +8932,7 @@
 		(instances
 			(project "CustomKB2040"
 				(path "/1dc59942-63a2-41f5-a9fb-7502b7672a2f/02cee8b0-a02f-4615-921b-eb372b3c289b"
-					(reference "D7")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -9197,7 +9215,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c59c993-5866-4d45-a68c-39fba92b9fb1")
-		(property "Reference" "D8"
+		(property "Reference" "D4"
 			(at 43.942 81.28 90)
 			(effects
 				(font
@@ -9267,7 +9285,7 @@
 		(instances
 			(project "CustomKB2040"
 				(path "/1dc59942-63a2-41f5-a9fb-7502b7672a2f/02cee8b0-a02f-4615-921b-eb372b3c289b"
-					(reference "D8")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -10081,7 +10099,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27a0ad01-f0df-4c74-b3a2-137e2b33cfb1")
-		(property "Reference" "D16"
+		(property "Reference" "D12"
 			(at 43.942 203.2 90)
 			(effects
 				(font
@@ -10151,7 +10169,7 @@
 		(instances
 			(project "CustomKB2040"
 				(path "/1dc59942-63a2-41f5-a9fb-7502b7672a2f/02cee8b0-a02f-4615-921b-eb372b3c289b"
-					(reference "D16")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -10166,7 +10184,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a0132a2-158b-49c3-9f18-801055cb27c4")
-		(property "Reference" "D19"
+		(property "Reference" "D15"
 			(at 43.942 248.92 90)
 			(effects
 				(font
@@ -10236,7 +10254,7 @@
 		(instances
 			(project "CustomKB2040"
 				(path "/1dc59942-63a2-41f5-a9fb-7502b7672a2f/02cee8b0-a02f-4615-921b-eb372b3c289b"
-					(reference "D19")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -10584,7 +10602,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3499597c-f95d-4809-9cab-a2f7e9359767")
-		(property "Reference" "D12"
+		(property "Reference" "D8"
 			(at 43.942 142.24 90)
 			(effects
 				(font
@@ -10654,7 +10672,7 @@
 		(instances
 			(project "CustomKB2040"
 				(path "/1dc59942-63a2-41f5-a9fb-7502b7672a2f/02cee8b0-a02f-4615-921b-eb372b3c289b"
-					(reference "D12")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -10734,7 +10752,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37216ce4-d2d5-4420-be36-1df190ac2167")
-		(property "Reference" "D14"
+		(property "Reference" "D10"
 			(at 43.942 172.72 90)
 			(effects
 				(font
@@ -10804,7 +10822,7 @@
 		(instances
 			(project "CustomKB2040"
 				(path "/1dc59942-63a2-41f5-a9fb-7502b7672a2f/02cee8b0-a02f-4615-921b-eb372b3c289b"
-					(reference "D14")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -10889,7 +10907,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c50b1b1-4d4a-45f6-b052-8ef9f5db475a")
-		(property "Reference" "D9"
+		(property "Reference" "D5"
 			(at 43.942 96.52 90)
 			(effects
 				(font
@@ -10959,7 +10977,7 @@
 		(instances
 			(project "CustomKB2040"
 				(path "/1dc59942-63a2-41f5-a9fb-7502b7672a2f/02cee8b0-a02f-4615-921b-eb372b3c289b"
-					(reference "D9")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -11640,7 +11658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5363fda3-bcd8-4fb6-bf03-260a0d407986")
-		(property "Reference" "D1"
+		(property "Reference" "D19"
 			(at 186.69 216.2174 90)
 			(effects
 				(font
@@ -11694,7 +11712,7 @@
 		(instances
 			(project "CustomKB2040"
 				(path "/1dc59942-63a2-41f5-a9fb-7502b7672a2f/02cee8b0-a02f-4615-921b-eb372b3c289b"
-					(reference "D1")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -12117,7 +12135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6947936b-9738-4376-a0a5-966fff4914c1")
-		(property "Reference" "D2"
+		(property "Reference" "D20"
 			(at 217.17 216.2174 90)
 			(effects
 				(font
@@ -12171,7 +12189,7 @@
 		(instances
 			(project "CustomKB2040"
 				(path "/1dc59942-63a2-41f5-a9fb-7502b7672a2f/02cee8b0-a02f-4615-921b-eb372b3c289b"
-					(reference "D2")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -13095,7 +13113,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8863be47-935d-4b86-9c00-2936571ba89f")
-		(property "Reference" "D17"
+		(property "Reference" "D13"
 			(at 43.942 218.44 90)
 			(effects
 				(font
@@ -13165,7 +13183,7 @@
 		(instances
 			(project "CustomKB2040"
 				(path "/1dc59942-63a2-41f5-a9fb-7502b7672a2f/02cee8b0-a02f-4615-921b-eb372b3c289b"
-					(reference "D17")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -13246,7 +13264,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c90c9c5-9f88-4690-8199-92d1b0be6b6b")
-		(property "Reference" "D13"
+		(property "Reference" "D9"
 			(at 43.942 157.48 90)
 			(effects
 				(font
@@ -13316,7 +13334,7 @@
 		(instances
 			(project "CustomKB2040"
 				(path "/1dc59942-63a2-41f5-a9fb-7502b7672a2f/02cee8b0-a02f-4615-921b-eb372b3c289b"
-					(reference "D13")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -13666,7 +13684,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "982ce25f-6882-4c49-a917-2d4de1b43abf")
-		(property "Reference" "D15"
+		(property "Reference" "D11"
 			(at 43.942 187.96 90)
 			(effects
 				(font
@@ -13736,7 +13754,7 @@
 		(instances
 			(project "CustomKB2040"
 				(path "/1dc59942-63a2-41f5-a9fb-7502b7672a2f/02cee8b0-a02f-4615-921b-eb372b3c289b"
-					(reference "D15")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -14021,7 +14039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e16ff74-7897-4f7a-8b82-69bc7cdf5be1")
-		(property "Reference" "D5"
+		(property "Reference" "D1"
 			(at 46.99 26.7014 90)
 			(effects
 				(font
@@ -14089,7 +14107,7 @@
 		(instances
 			(project ""
 				(path "/1dc59942-63a2-41f5-a9fb-7502b7672a2f/02cee8b0-a02f-4615-921b-eb372b3c289b"
-					(reference "D5")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -14437,7 +14455,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a756d2c1-f781-48d0-857c-544328291d65")
-		(property "Reference" "D6"
+		(property "Reference" "D2"
 			(at 43.942 50.8 90)
 			(effects
 				(font
@@ -14507,7 +14525,7 @@
 		(instances
 			(project "CustomKB2040"
 				(path "/1dc59942-63a2-41f5-a9fb-7502b7672a2f/02cee8b0-a02f-4615-921b-eb372b3c289b"
-					(reference "D6")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -14927,7 +14945,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb4436b7-ecde-4644-a719-5b6f54a63b3c")
-		(property "Reference" "D22"
+		(property "Reference" "D18"
 			(at 76.2 260.858 0)
 			(effects
 				(font
@@ -14997,7 +15015,7 @@
 		(instances
 			(project "CustomKB2040"
 				(path "/1dc59942-63a2-41f5-a9fb-7502b7672a2f/02cee8b0-a02f-4615-921b-eb372b3c289b"
-					(reference "D22")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -15772,7 +15790,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc3f4d4d-a6c2-46e3-a89a-de971160ead5")
-		(property "Reference" "D10"
+		(property "Reference" "D6"
 			(at 43.942 111.76 90)
 			(effects
 				(font
@@ -15842,7 +15860,7 @@
 		(instances
 			(project "CustomKB2040"
 				(path "/1dc59942-63a2-41f5-a9fb-7502b7672a2f/02cee8b0-a02f-4615-921b-eb372b3c289b"
-					(reference "D10")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -15857,7 +15875,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd669593-22b6-4559-b212-efd7813030e4")
-		(property "Reference" "D21"
+		(property "Reference" "D17"
 			(at 60.96 260.858 0)
 			(effects
 				(font
@@ -15927,7 +15945,7 @@
 		(instances
 			(project "CustomKB2040"
 				(path "/1dc59942-63a2-41f5-a9fb-7502b7672a2f/02cee8b0-a02f-4615-921b-eb372b3c289b"
-					(reference "D21")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -16746,7 +16764,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee8572ec-3bf8-4eb5-9113-eaa50722ea2c")
-		(property "Reference" "D11"
+		(property "Reference" "D7"
 			(at 43.942 127 90)
 			(effects
 				(font
@@ -16816,7 +16834,7 @@
 		(instances
 			(project "CustomKB2040"
 				(path "/1dc59942-63a2-41f5-a9fb-7502b7672a2f/02cee8b0-a02f-4615-921b-eb372b3c289b"
-					(reference "D11")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -16962,7 +16980,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f455a06c-e718-4975-9a61-8aa5a1621e28")
-		(property "Reference" "D18"
+		(property "Reference" "D14"
 			(at 43.942 233.68 90)
 			(effects
 				(font
@@ -17032,7 +17050,7 @@
 		(instances
 			(project "CustomKB2040"
 				(path "/1dc59942-63a2-41f5-a9fb-7502b7672a2f/02cee8b0-a02f-4615-921b-eb372b3c289b"
-					(reference "D18")
+					(reference "D14")
 					(unit 1)
 				)
 			)
