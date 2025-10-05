@@ -11,7 +11,7 @@
 		(comment 1 "SPARC")
 	)
 	(lib_symbols)
-	(text "Both halves are identical. This is a split keyboard so there must be two PCBs,\nhowever for ease of manufacturing and file management I have them on the same \"board\"\nThe notation \"_R\" is used to differitate between left and right mirrored elements\n-KQ4SPZ"
+	(text "Both halves are identical. This is a split keyboard so there must be two PCBs,\nhowever for ease of manufacturing and file management I have them on the same \"board\"\nThe notation \"_R\" is used to differitate between left and right mirrored elements\n-Jacob"
 		(exclude_from_sim no)
 		(at 145.796 119.888 0)
 		(effects
