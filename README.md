@@ -10,7 +10,7 @@ https://github.com/thrly/tempest
 ## TO DO List
 - [ ] Impedance match USB
 - [ ] Right Side PCB
-- [ ] Restructure GitHub to include Case and 3d files
+- [ ] include Case and 3d files
 - [ ] Rebase from kiCAD to Fusion ECAD
 - [ ] Begin QMK firmware
 - [ ] define COMPLEX.cpp in QMK environment
